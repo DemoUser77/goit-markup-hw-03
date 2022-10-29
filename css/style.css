@@ -1,0 +1,207 @@
+body{
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+:root{
+    --color-content-h2-h3-logo:#212121;
+    --color-port-subtitle-p:#757575;
+    --color-main-button-footer:#2196F3;
+}
+.logo{
+font-family: 'Raleway';
+font-size: 26px;
+line-height:calc(31/26);
+letter-spacing: 0.03em;
+text-decoration: none;
+color: var(--color-main-button-footer);
+}
+.logo-header{
+    color:black;
+}
+.text{
+font-size: 14px;
+line-height: calc(16/14);
+font-weight: 500;
+letter-spacing: 0.02em;
+color:var(--color-main-button-footer);
+cursor: pointer;
+}
+.text{
+    text-decoration: none;
+}
+.text-logo{
+    font-size: 14px;
+    line-height: calc(16/14);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color:var(--color-content-h2-h3-logo);
+    cursor: pointer;
+}
+.main-item,.text-logo:active{
+    color:var(--color-main-button-footer);
+}
+.main-item{
+    list-style-type: none;
+}
+.text-logo{
+    text-decoration: none;
+}
+.email{
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+color: var(--color-main-button-footer);
+text-decoration: none;
+}
+.tel{
+font-weight: 500;
+font-size: 14px;
+line-height:calc(16/14);
+letter-spacing: 0.02em;
+color:var(--color-port-subtitle-p);
+text-decoration: none;
+}
+/* Main section*/
+.main-color{
+    background: #2F303A;
+}
+.main{
+font-size: 44px;
+font-weight: 900;
+line-height: calc(60/44);
+letter-spacing: 0.06em;
+color:  #FFFFFF;
+text-transform:uppercase;
+text-align: center;
+}
+.main-button{
+font-size: 16px;
+font-weight: 700;
+line-height: calc(30/16);
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color:var(--color-main-button-footer);
+border-style: none;
+cursor: pointer;
+}
+.main-content{
+font-size: 14px;
+font-weight: 700;
+line-height: calc(16/14);
+letter-spacing: 0.03em;
+color:var(--color-content-h2-h3-logo);
+text-transform:uppercase;
+}
+.main-features{
+font-size: 14px;
+font-weight: 400;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color:var(--color-port-subtitle-p);
+}
+/*Section title*/
+.title{
+font-size: 36px;
+font-weight: 700;
+line-height: calc(42/36);
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--color-content-h2-h3-logo);
+}
+/*Section heading*/
+.heading{
+font-size: 16px;
+font-weight: 500;
+line-height: calc(19/16);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--color-content-h2-h3-logo);
+}
+.subtitle{
+font-size: 16px;
+font-weight: 400;
+line-height: calc(19/16);
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--color-port-subtitle-p);
+}
+.color{
+    background: #F5F4FA;
+}
+/*Footer section*/
+.footer-color{
+    background: #2F303A;
+}
+.footer-logo{
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+letter-spacing: 0.03em;
+color:var(--color-main-button-footer);
+text-decoration: none;
+}
+.footer-logo-color{
+    color: #FFFFFF;
+}
+.address{
+font-family: 'Roboto';
+font-style: normal;
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color: #FFFFFF;
+text-decoration: none;
+}
+.footer-info{
+font-style: normal;
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+.main-nav{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26/16);
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--color-content-h2-h3-logo);
+cursor: pointer;
+border-style: none;
+}
+.main-nav:hover{
+color: #FFFFFF;
+background-color:var(--color-main-button-footer);
+}
+.visually-hidden{
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip:rect(0000);
+clip-path: inset(50%);
+margin: -1px;
+}
+.port-title{
+font-size: 18px;
+line-height: calc(36/18);
+letter-spacing: 0.06em;
+color: var(--color-content-h2-h3-logo);
+}
+.port-subtitle{
+font-size: 16px;
+line-height: calc(30/16);
+letter-spacing: 0.03em;
+color: var(--color-port-subtitle-p);
+}
+
