@@ -30,6 +30,10 @@ img{
 /* rest end*/
 
 /* Header section*/
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .container{
     width: 1200px;
     padding-right: 15px;
@@ -38,7 +42,6 @@ img{
     margin-right: auto;
 
     outline:2px solid orange;
-
 }
 .header-container{
     display: flex;
@@ -49,8 +52,6 @@ img{
 }
 .header-item{
 display: flex;
-
-
 }
 .tel{
     margin-left: 50px;
@@ -107,9 +108,8 @@ display: block;
 }
 .main-item{
     list-style-type: none;  
-    
-    
-}
+    }
+
 .text-logo{
     text-decoration: none;
 }
@@ -133,9 +133,7 @@ text-decoration: none;
 
 .main-color{
     background: #2F303A;
-
-    width: 1600px;
-    height: 600px;
+    text-align: center;
 }
 .main{
 font-size: 44px;
@@ -144,10 +142,9 @@ line-height: calc(60/44);
 letter-spacing: 0.06em;
 color:  #FFFFFF;
 text-transform:uppercase;
-text-align: center;
-
-display: flex;
 align-items: center;
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .main-button{
@@ -264,8 +261,15 @@ color:var(--color-main-button-footer);
 text-decoration: none;
 width: 145px;
 height: 31px;
-margin-top: 60px;
-margin-bottom: 20px;
+padding: 0;
+padding-top: 60px;
+display: flex;
+padding-bottom: 20px;
+}
+
+.main-item{
+    padding: 0;
+    padding-top: 20px;
 }
 .footer-logo-color{
     color: #FFFFFF;
@@ -278,6 +282,9 @@ line-height: calc(24/14);
 letter-spacing: 0.03em;
 color: #FFFFFF;
 text-decoration: none;
+
+display: inline-block;
+padding-bottom: 9px;
 }
 .footer-info{
 font-style: normal;
@@ -286,10 +293,19 @@ line-height: calc(24/14);
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
+
+display: inline-block;
+padding-bottom: 9px;
 }
 
 /* Portfolio*/
-
+.port-main{
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    
+}
 .main-nav{
 font-family: 'Roboto';
 font-style: normal;
@@ -301,7 +317,13 @@ letter-spacing: 0.03em;
 color:var(--color-content-h2-h3-logo);
 cursor: pointer;
 border-style: none;
+margin-right: 8px;
+border-radius: 4px;
+width: 112px;
+height: 38px;
 }
+
+
 .main-nav:hover{
 color: #FFFFFF;
 background-color:var(--color-main-button-footer);
@@ -356,3 +378,4 @@ line-height: calc(30/16);
 letter-spacing: 0.03em;
 color: var(--color-port-subtitle-p);
 }
+
