@@ -46,7 +46,9 @@ img{
 .header-container{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;;
+}
+.header{
+border-bottom: 1px solid #ECECEC;
 }
 .header-info{
     margin-left:auto;
@@ -187,7 +189,7 @@ color:var(--color-content-h2-h3-logo);
 text-transform:uppercase;
 
 width: 270px;
-padding-right: 16px;
+padding-bottom: 10px;
 }
 .main-features{
 font-size: 14px;
@@ -297,7 +299,7 @@ color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
 
 display: inline-block;
-padding-bottom: 9px;
+margin-bottom: 9px;
 }
 
 /* Portfolio*/
@@ -319,7 +321,8 @@ cursor: pointer;
 border-style: none;
 margin-right: 8px;
 border-radius: 4px;
-width: 112px;
+padding-right: 22px;
+padding-left: 22px;
 height: 38px;
 }
 .main-nav:hover{
